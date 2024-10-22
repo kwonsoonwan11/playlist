@@ -1,0 +1,82 @@
+/* 전체 페이지 스타일 */
+body {
+    font-family: 'Arial', sans-serif; /* 부드러운 디지털체를 위한 기본 글꼴 */
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* 흰색 배경 */
+    color: #333; /* 텍스트 색상 */
+}
+
+/* 헤더 스타일 */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff0000; /* 유튜브 스타일 빨간색 */
+    color: #ffffff; /* 텍스트 색상 */
+    font-size: 2.5em; /* 크고 눈에 띄는 폰트 크기 */
+    border-radius: 0 0 20px 20px; /* 하단 모서리 둥글게 */
+}
+
+/* 메인 콘텐츠 스타일 */
+main {
+    max-width: 800px; /* 최대 너비 설정 */
+    margin: 20px auto; /* 가운데 정렬 */
+    padding: 20px;
+}
+
+/* 플레이리스트 컨테이너 스타일 */
+#playlist-container {
+    background: linear-gradient(180deg, #ffcccc, #ff9999); /* 그라데이션 배경 */
+    border-radius: 10px; /* 모서리 둥글게 */
+    padding: 20px;
+    margin-bottom: 20px; /* 아래 여백 */
+}
+
+/* 추가하기 섹션 스타일 */
+#add-song-section {
+    background: linear-gradient(180deg, #ff9999, #ff6666); /* 다른 그라데이션 배경 */
+    border-radius: 10px; /* 모서리 둥글게 */
+    padding: 20px;
+    margin-bottom: 20px; /* 아래 여백 */
+}
+input[type="text"] {
+    width: 100%; /* 기본적으로 100% 사용 */
+    max-width: 400px; /* 최대 너비 설정 */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    input[type="text"] {
+        width: 70%; /* 작은 화면에서는 70% 너비 사용 */
+    }
+}
+
+
+/* 버튼 스타일 */
+button {
+    background-color: #ff0000; /* 유튜브 빨간색 */
+    color: #ffffff; /* 텍스트 색상 */
+    border: none; /* 테두리 제거 */
+    padding: 10px 20px; /* 패딩 */
+    border-radius: 10px; /* 둥글게 */
+    cursor: pointer; /* 포인터 커서 */
+    font-size: 1.2em; /* 폰트 크기 */
+    transition: all 0.3s; /* 애니메이션 효과 */
+}
+
+/* 버튼 호버 효과 */
+button:hover {
+    background-color: #cc0000; /* 어두운 빨간색 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 그림자 효과 */
+}
+
+/* 푸터 스타일 */
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 0.9em; /* 폰트 크기 */
+}
